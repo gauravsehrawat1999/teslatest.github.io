@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tesla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body style="background-color:rgb(6,6,6);">
+    <section class="d-flex flex-column justify-content-between" id="hero">
+        <div id="hero-top">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid"><a class="navbar-brand" href="#">&nbsp;&nbsp;</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1" style="font-family:Montserrat, sans-serif;font-size:14px;font-weight:bold;">
+                        <ul class="nav navbar-nav ml-auto" style="color:rgb(34,34,34);">
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Model S</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color:rgb(34,34,34);">Model 3</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Roadster</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Energy</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Shop</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Sign In</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h1 class="text-center" id="title1">Tesla&nbsp;</h1>
+            <h2 class="text-center" id="subtitle" style="font-family:Montserrat, sans-serif;font-weight:bold;font-size:40px;">Roadster</h2>
+        </div>
+        <div id="hero-bottem">
+            <div class="container justify-content-center">
+                <div class="row">
+                    <div class="col-8 offset-2" style="height:73px;font-size:13px;">
+                        <p class="text-center" style="margin-bottom:0px;"><br>The quickest car in the world, with record-setting acceleration, range and performance<br><br></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="height:86px;">
+                        <p class="p-top" style="font-size:21px;"><i class="icon ion-speedometer"></i>1.9s</p>
+                        <p class="p-bottom">0-60mph</p>
+                    </div>
+                    <div class="col white-border" style="height:86px;">
+                        <p class="p-top" style="font-size:21px;">+250mph</p>
+                        <p class="p-bottom">Top Speed</p>
+                    </div>
+                    <div class="col" style="height:87px;">
+                        <p class="p-top" style="font-size:21px;">620ml</p>
+                        <p class="p-bottom">Mile Range</p>
+                    </div>
+                    <div class="col align-self-center"><button class="btn btn-primary btn-block" type="button" id="reserve">Button</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button class="btn btn-primary btn-block" type="button" id="arrow" style="background-color:rgba(0,123,255,0);"><i class="icon ion-ios-arrow-down" style="font-size:29px;"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video-stats"><iframe width="900px" height="500px" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/tw4jkyfY4HE?autoplay=1&amp;loop=1&amp;playlist=tw4jkyfY4HE&amp;controls=0&amp;showinfo=0&amp;rel=0" id="video"></iframe>
+        <div id="stats">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2" id="top" style="padding-left:0px;">Base Specs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="left">Acceleration 0-60&nbsp;mph<br></td>
+                        <td id="right">1.9 sec<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Acceleration 0-100&nbsp;mph<br></td>
+                        <td id="right">4.2sec</td>
+                    </tr>
+                    <tr>
+                        <td id="left">Acceleration 1/4&nbsp;mile<br></td>
+                        <td id="right">8.8&nbsp;sec<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Top Speed<br></td>
+                        <td id="right">Over&nbsp;250&nbsp;mph<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Wheel Torque<br></td>
+                        <td id="right">10,000&nbsp;Nm<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Mile Range<br></td>
+                        <td id="right">620&nbsp;miles<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Seating<br></td>
+                        <td id="right">4</td>
+                    </tr>
+                    <tr>
+                        <td id="left">Drive<br></td>
+                        <td id="right">All-Wheel Drive<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Base Price<br></td>
+                        <td id="right">$200,000<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Base Reservation<br></td>
+                        <td id="right">$50,000<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Founders Series Price<br></td>
+                        <td id="right">$250,000<br></td>
+                    </tr>
+                    <tr>
+                        <td id="left">Founders Series Reservation<br>(1,000 reservations available<br></td>
+                        <td id="right">$250,000<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="d-flex align-items-center" id="aero" style="background-image:url(&quot;assets/img/back.jpg&quot;);background-size:cover;background-repeat:no-repeat;background-position:center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h3 style="color:rgb(246,246,247);">Designed for Performance and Aero Efficiency<br></h3>
+                </div>
+                <div class="col">
+                    <p style="color:rgb(251,252,252);">As an all-electric supercar, Roadster maximizes the potential of aerodynamic engineering—with record-setting performance and efficiency.<br><br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex justify-content-center align-items-center" id="interior">
+        <figure class="figure" style="max-width:70%;"><img class="img-fluid figure-img" src="assets/img/interior.jpg" style="background-image:url(&quot;none&quot;);background-size:cover;background-position:center;background-repeat:no-repeat;">
+            <figcaption class="figure-caption"><span id="hed">Interior</span>&nbsp; &nbsp; &nbsp; &nbsp; The first supercar to set every performance record and still fit seating for four<br></figcaption>
+        </figure>
+    </section>
+    <section class="d-flex flex-column justify-content-end align-content-end" id="exterior">
+        <div class="container" id="ext">
+            <div class="row">
+                <div class="col">
+                    <h1 style="font-size:31px;font-weight:bold;">Glass Roof<br></h1>
+                    <p style="width:347px;font-size:13px;">A lightweight, removable Glass Roof stores in the trunk for an open-air, convertible driving experience.<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+</body>
+
+</html>
